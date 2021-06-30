@@ -1,3 +1,6 @@
+// This is the "Offline copy of assets" service worker
+// Inspired on Workbox: https://developers.google.com/web/tools/workbox/modules/workbox-sw
+
 const CACHE = "pwabuilder-offline";
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-sw.js');
